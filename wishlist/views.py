@@ -6,6 +6,6 @@ def show_wishlist(request):
     data_barang_wishlist = BarangWishList.objects.all()
     context = {
         'list_barang' : data_barang_wishlist,
-        'nama' : 'Kak Cinoy'
+        'nama' : 'Jason Irvine M.P'
     }
     return render(request, "wishlist.html", context)
