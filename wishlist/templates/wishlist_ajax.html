@@ -28,8 +28,6 @@
             var items = JSON.parse(data1)
             
             for (var i = 0; i < data.length; i++) {
-                
-
                 var row = $('<tr><td>' + items[i].fields['nama_barang']+ '</td><td>' + items[i].fields['harga_barang'] + '</td><td>' + items[i].fields['deskripsi'] + '</td></tr>');
                 $('#data_barang').append(row);
             }
